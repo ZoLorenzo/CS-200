@@ -55,6 +55,21 @@ public class beginningTest {
             }}
             promptArray(new int[]{1,2,3,4,5});
         
+        //Practicing the "Binary Search Method" with arrays: // 04.01.24 -- 9:56am
+        public static int biSearch(int[] list, int key){
+            int low = 0;
+            int high = list.length - 1;
+
+            while (high >= low){ //allows the program to keep searching:
+            int mid = (high + low) / 2;
+            if (key < list[mid])
+                high = mid -1;
+            else if (key == list[mid])
+                return mid;
+            else
+                low = mid + 1;
+            } //end of the while-loop for "Binary Search Method"
+            return -low - 1; //signifies if the key is not in the list + where it would be placed...
 
     }
     
