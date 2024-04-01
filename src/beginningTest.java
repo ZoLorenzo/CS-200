@@ -20,6 +20,12 @@ public class beginningTest {
             System.out.println(twoNumbers[0]);
             System.out.println(twoNumbers[1]);
             System.out.println("The values in the array at index 0 & 1 is: " + twoNumbers[0] + " & " + twoNumbers[1]);
+        //creating an array with a basic for-loop:
+            int[] newArray = new int[10];
+            for(int i = 0; i < newArray.length; i++){ // <- this creates an array that will 10 slots, from 0-9, so that "i" is less than/equal to "newArray" length [10]
+                newArray[i] = i;
+                System.out.println(newArray[i] + " ");
+            }
 
     }
     
