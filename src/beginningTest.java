@@ -46,6 +46,16 @@ public class beginningTest {
                         System.out.println(finalTotal);
                 }
 
+        //practicing on invoking an array through a method:
+            public static void promptArray(int[] array){{
+                for (int i = 0; i < arrayNew.length; i++){
+                    array[i] = i;
+                    System.out.println(array[i] + " ");
+                }
+            }}
+            promptArray(new int[]{1,2,3,4,5});
+        
+
     }
     
 }
