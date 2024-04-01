@@ -13,6 +13,8 @@ public class beginningTest {
 
     //Adding code for Chapter 7 on Arrays
         int[] testerArray = new int[10];
+            testerArray[1] = 22;
+        System.out.println(testerArray[1]);
 
     }
     
