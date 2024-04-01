@@ -11,6 +11,9 @@ public class beginningTest {
         } else
             System.out.println("You're not welcome!");
 
+    //Adding code for Chapter 7 on Arrays
+        int[] testerArray = new int[10];
+
     }
     
 }
