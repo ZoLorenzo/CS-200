@@ -26,6 +26,25 @@ public class beginningTest {
                 newArray[i] = i;
                 System.out.println(newArray[i] + " ");
             }
+        //creating an array with values from 0-100:
+        int[] oneHundred = new int[100];
+            for(int i = 0; i < oneHundred.length; i++){
+                int count = 0;
+                oneHundred[i] = i;
+                if (count % 10 == 0) {
+
+                    System.out.println(oneHundred[i] + "\n");
+                } else
+                    System.out.println(oneHundred[i] + " ");
+            }
+        //adding the total from all fo the array values and printing them out:
+            int[] myList = new int[10];
+            int finalTotal = 0;
+                for(int i = 0; i < myList.length; i++){
+                        myList[i] = i;
+                        finalTotal += myList[i];
+                        System.out.println(finalTotal);
+                }
 
     }
     
